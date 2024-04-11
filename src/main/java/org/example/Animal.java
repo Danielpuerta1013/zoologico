@@ -5,7 +5,7 @@ public class Animal {
      private String nombre;
      private String genero;
      private double peso;
-     public Animal pareja;
+     public static Animal pareja;
 
     public Animal() {
     }

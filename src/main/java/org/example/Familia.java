@@ -28,7 +28,7 @@ public class Familia {
 
     public void tenerHijo(String nombre){
 
-        if(this.papa!=null && this.mama!=null){
+        if(this.papa!=null && Animal.pareja!=null){
 
             Animal hijo= new Animal();
 
